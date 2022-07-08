@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "{{@ system @}}-classification-share",
+    "type": "pipe",
+    "source": {
+      "type": "dataset",
+      "dataset": "<todo>"
+    },
+    "sink": {
+      "type": "json",
+      "system": "{{@ system @}}",
+      "batch_size": 1000,
+      "url": "receiver?pipe_id={{@ system @}}-classification&target_table=sesam-demo.template.{{@ system @}}-classification"
+    },
+    "pump": {
+      "fallback_to_single_entities_on_batch_fail": false,
+      "rescan_cron_expression": "0 0 * * ?"
+    },
+    "batch_size": 1000,
+    "remove_namespaces": false
+  }
+]

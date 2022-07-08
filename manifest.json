@@ -1,0 +1,14 @@
+{
+  "datatypes": {
+    "company": {
+      "template": "templates/company.json"
+    },
+    "person": {
+      "template": "templates/person.json"
+    },
+    "classification": {
+      "template": "templates/classification.json"
+    }
+  },
+  "system-template": "templates/system.json"
+}
