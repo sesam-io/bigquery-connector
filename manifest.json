@@ -10,5 +10,6 @@
       "template": "templates/classification.json"
     }
   },
-  "system-template": "templates/system.json"
+  "system-template": "templates/system.json",
+  "auth": "oauth2"
 }
