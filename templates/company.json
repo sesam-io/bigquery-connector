@@ -1,5 +1,5 @@
 [{
-    "_id": "{{@ system @}}-company-share",
+    "_id": "bq_{{@ system @}}-company-share",
     "type": "pipe",
     "source": {
         "type": "dataset",
@@ -7,7 +7,7 @@
     },
     "sink": {
         "type": "json",
-        "system": "{{@ system @}}",
+        "system": "bq_{{@ system @}}",
         "batch_size": 1000,
         "url": "receiver?pipe_id={{@ system @}}-company&target_table=sesam-demo.template.{{@ system @}}-company"
     },

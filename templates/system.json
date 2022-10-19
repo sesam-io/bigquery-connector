@@ -1,5 +1,5 @@
 {
-  "_id": "{{@ system @}}",
+  "_id": "bq_{{@ system @}}",
   "type": "system:microservice",
   "docker": {
     "environment": {

@@ -1,6 +1,6 @@
 [
   {
-    "_id": "{{@ system @}}-person-share",
+    "_id": "bq_{{@ system @}}-person-share",
     "type": "pipe",
     "source": {
       "type": "dataset",
@@ -8,7 +8,7 @@
     },
     "sink": {
       "type": "json",
-      "system": "{{@ system @}}",
+      "system": "bq_{{@ system @}}",
       "batch_size": 1000,
       "url": "receiver?pipe_id={{@ system @}}-person&target_table=sesam-demo.template.{{@ system @}}-person"
     },
