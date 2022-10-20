@@ -4,7 +4,7 @@
     "type": "pipe",
     "source": {
       "type": "dataset",
-      "dataset": "<todo>"
+      "dataset": "{{@ system @}}-classification-transform"
     },
     "sink": {
       "type": "json",
