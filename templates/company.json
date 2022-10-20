@@ -3,7 +3,7 @@
     "type": "pipe",
     "source": {
         "type": "dataset",
-        "dataset": "<todo>"
+        "dataset": "{{@ system @}}-company-transform"
     },
     "sink": {
         "type": "json",
