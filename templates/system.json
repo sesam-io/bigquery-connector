@@ -4,7 +4,7 @@
   "docker": {
     "environment": {
       "CONFIG": {
-        "bigquery_table_prefix": "sesam.demo",
+        "bigquery_table_prefix": "sesam-demo.template",
         "google_application_credentials": "$SECRET(jwt)",
         "jwt_token": "$SECRET(service_jwt)",
         "multithreaded": true,
