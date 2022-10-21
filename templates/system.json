@@ -17,7 +17,7 @@
         "node_url": "$SECRET(service_url)"
       }
     },
-    "image": "sesamcommunity/google-bigquery-sink:latest",
+    "image": "sesamcommunity/google-bigquery-sink:development",
     "memory": 128,
     "port": 5000
   },
