@@ -1,4 +1,4 @@
-{
+No{
   "datatypes": {
     "company": {
       "template": "templates/company.json"
@@ -12,5 +12,6 @@
   },
   "system-template": "templates/system.json",
   "auth": "oauth2",
-  "requires_all_oauth_props": true
+  "requires_all_oauth_props": true, 
+  "requires_service_api_access": true
 }
