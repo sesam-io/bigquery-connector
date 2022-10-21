@@ -5,7 +5,13 @@
     "environment": {
       "CONFIG": {
         "bigquery_table_prefix": "sesam-demo.template",
-        "google_user_credentials": "$SECRET(google_user_credentials)",
+        "google_user_credentials": {
+          "token": "$SECRET(oauth_access_token)"
+          "refresh_token": "$SECRET(oauth_refresh_token)",
+          "client_id": "$SECRET(oauth_client_id)",
+          "client_secret": "$SECRET(oauth_client_secret)",
+          "project": "$SECRET(project)"
+        },
         "jwt_token": "$SECRET(service_jwt)",
         "multithreaded": true,
         "node_url": "$SECRET(service_url)"
