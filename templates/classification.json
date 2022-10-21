@@ -10,7 +10,7 @@
       "type": "json",
       "system": "bq_{{@ system @}}",
       "batch_size": 1000,
-      "url": "receiver?pipe_id={{@ system @}}-classification-transform&target_table=classification"
+      "url": "receiver?pipe_id={{@ system @}}-classification-transform&target_table=bigquery-microservice.test.classification"
     },
     "pump": {
       "fallback_to_single_entities_on_batch_fail": false,
