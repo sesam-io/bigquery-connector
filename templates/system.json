@@ -4,7 +4,6 @@
   "docker": {
     "environment": {
       "CONFIG": {
-        "bigquery_table_prefix": "bigquery-microservice.test",
         "google_user_credentials": {
           "token": "$SECRET(oauth_access_token)",
           "refresh_token": "$SECRET(oauth_refresh_token)",
