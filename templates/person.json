@@ -10,7 +10,7 @@
       "type": "json",
       "system": "bq_{{@ system @}}",
       "batch_size": 1000,
-      "url": "receiver?pipe_id={{@ system @}}-person-transform&target_table=bigquery-microservice.test.person"
+      "url": "receiver?pipe_id={{@ system @}}-person-transform&target_table={{@ project @}}.{{@ dataset @}}.person"
     },
     "pump": {
       "fallback_to_single_entities_on_batch_fail": false,
