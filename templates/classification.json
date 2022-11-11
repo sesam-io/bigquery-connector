@@ -1,6 +1,6 @@
 [
   {
-    "_id": "bq_{{@ system @}}-classification-share",
+    "_id": "{{@ system @}}-classification-share",
     "type": "pipe",
     "source": {
       "type": "dataset",
@@ -8,7 +8,7 @@
     },
     "sink": {
       "type": "json",
-      "system": "bq_{{@ system @}}",
+      "system": "{{@ system @}}",
       "batch_size": 1000,
       "url": "receiver?pipe_id={{@ system @}}-classification-transform&target_table={{@ project @}}.{{@ dataset @}}.classification"
     },
