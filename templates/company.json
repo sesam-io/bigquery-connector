@@ -1,5 +1,5 @@
 [{
-    "_id": "bq_{{@ system @}}-company-share",
+    "_id": "{{@ system @}}-company-share",
     "type": "pipe",
     "source": {
         "type": "dataset",
@@ -7,7 +7,7 @@
     },
     "sink": {
         "type": "json",
-        "system": "bq_{{@ system @}}",
+        "system": "{{@ system @}}",
         "batch_size": 1000,
         "url": "receiver?pipe_id={{@ system @}}-company-transform&target_table={{@ project @}}.{{@ dataset @}}.company"
     },
