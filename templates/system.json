@@ -4,7 +4,7 @@
   "docker": {
     "environment": {
       "CONFIG": {
-        "google_user_credentials": "$SECRET(bigquery-credentials)",
+        "google_application_credentials": "$SECRET(bigquery-credentials)",
         "jwt_token": "$SECRET(service_jwt)",
         "multithreaded": true,
         "node_url": "$SECRET(service_url)"
