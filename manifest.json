@@ -11,7 +11,8 @@
     }
   },
   "system-template": "templates/system.json",
-  "auth": "oauth2",
+  "auth": "api_key",
+  "auth_variant": "service_account",
   "requires_all_oauth_props": true, 
   "requires_service_api_access": true
 }
