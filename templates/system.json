@@ -7,7 +7,7 @@
         "google_application_credentials": "$SECRET(bigquery-credentials)",
         "jwt_token": "$SECRET(service_jwt)",
         "multithreaded": true,
-        "node_url": "$SECRET(service_url)"
+        "node_url": "$ENV(service_url)"
       }
     },
     "image": "sesamcommunity/google-bigquery-sink:development",
